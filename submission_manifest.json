@@ -1,0 +1,50 @@
+{
+  "github_username": "Aknur06",
+  "gpu_uuid": "GPU-69506643-bac6-7bb4-baf0-83ef962345fc",
+  "instance_seed": 7910791518848789086,
+  "mpi_ranks": 4,
+  "grid_topology": [
+    2,
+    2
+  ],
+  "dx": 0.001949317738791423,
+  "kappa_max": 0.23999962497115201,
+  "dt_max": 3.9581724838358046e-06,
+  "dt": 1.781177617726112e-06,
+  "serialized_ms": 1247.027,
+  "overlapped_ms": 1745.011,
+  "parity_max_diff": 0.0,
+  "ptx_counts": {
+    "st.shared.f64": 5,
+    "ld.shared.f64": 5,
+    "bar.sync": 1
+  },
+  "ptx_audit_passed": true,
+  "energy_trace": [
+    {
+      "step": 0,
+      "energy": 0.0864160858619915,
+      "l2_residual": 0.0
+    },
+    {
+      "step": 100,
+      "energy": 0.08640722162048894,
+      "l2_residual": 12.233055714763047
+    },
+    {
+      "step": 200,
+      "energy": 0.08640149032373434,
+      "l2_residual": 11.90208654171659
+    },
+    {
+      "step": 300,
+      "energy": 0.08639629325167214,
+      "l2_residual": 11.595472602366975
+    },
+    {
+      "step": 400,
+      "energy": 0.08639130074921812,
+      "l2_residual": 11.309489200702288
+    }
+  ]
+}
